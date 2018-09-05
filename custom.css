@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Ananda Neptouch 2';
+  src: url('Ananda Neptouch 2.eot');
+  src: url('Ananda Neptouch 2.woff2') format('woff2'),
+       url('Ananda Neptouch 2.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AnandaNeptouch2';
+  src: url('AnandaNeptouch2.woff') format('woff'),
+       url('AnandaNeptouch2.ttf') format('truetype'),
+       url('AnandaNeptouch2.svg#AnandaNeptouch2') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+  font-family: 'AnandaNeptouch2';
+}
+/*9*/
+#banner img{
+  width: 100%;
+}
+#banner {
+    position: relative;
+    overflow: hidden;
+}
+#banner .flying {
+    position: absolute;
+    top: 7px;
+}
