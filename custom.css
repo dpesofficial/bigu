@@ -31,3 +31,22 @@
     position: absolute;
     top: 7px;
 }
+
+#be-part {
+    padding-top: 55px;
+    width: 100%;
+}
+#be-part h2{
+    color: #0d3c01;
+    font-size: 87px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 75px;
+}
+#be-part p{
+    color: #250d06;
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 12px;
+}
