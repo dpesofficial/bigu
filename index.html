@@ -3,16 +3,32 @@
 <head>
   <title>Bigu</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="bootstrap.min.css">
   <link rel="stylesheet" href="animate.css">
   <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet" href="media.css">
   <script src="jquery.min.js"></script>
   <script src="wow.min.js"></script>
   <script src="bootstrap.min.js"></script>
 </head>
 <body class="" style="background-image: url(paper.jpg);background-size: 100%;">
-  
+<div class="menu-toggle">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
 <div class="container-fluid">
   <div class="row">
     <div id="banner">
@@ -138,7 +154,7 @@
   <div id="footer-links">
        
         <div class="row">
-            <div class="col-lg-6 wow zoomIn text-center">
+            <div class="col-lg-6 col-sm-6 wow zoomIn text-center">
                 <ul class="top-ul">
                   <li><a href="#">Address 1</a></li>
                   <li><a href="#">Address 1</a></li>
@@ -147,7 +163,7 @@
                   <li><a href="#">gmail</a></li>
                 </ul>
              </div>
-             <div class="col-lg-6 wow zoomIn text-center">
+             <div class="col-lg-6 col-sm-6 wow zoomIn text-center">
                  <ul class="top-ul">
                   <li><a href="#">About Us</a></li>
                   <li><a href="#">inq</a></li>
@@ -174,7 +190,17 @@
 
 
 <script>
-    new WOW().init();
+    new WOW().init()
+    $(".menu-toggle").click(function(){
+      //  $(".menu-toggle").toggleClass("change");
+       openNav();
+    })
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
 </script>
 </body>
 </html>
