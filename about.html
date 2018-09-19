@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bigu</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="animate.css">
+  <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet" href="media.css">
+  <script src="jquery.min.js"></script>
+  <script src="wow.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+</head>
+<body class="" style="background-image: url(paper.jpg);background-size: 100%;">
+<div class="menu-toggle">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+
+<!-- paper burn -->
+<div class="inner-page-wrap">
+  <div class="container">
+    <div class="row">
+          <h2>About Us</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque praesentium dolorum quisquam illum nobis eius facilis in. Accusantium consectetur dignissimos labore, necessitatibus repudiandae nesciunt, expedita ratione culpa architecto nihil at.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+
+          <p>Itaque praesentium dolorum quisquam illum nobis eius facilis in. Accusantium consectetur dignissimos labore, necessitatibus repudiandae nesciunt, expedita ratione culpa architecto nihil at.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque praesentium dolorum quisquam illum nobis eius facilis in. Accusantium consectetur dignissimos labore, necessitatibus repudiandae nesciunt, expedita ratione culpa architecto nihil at.</p>
+          </p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit quis, amet a. Esse quisquam in, necessitatibus ea inventore, assumenda eligendi repellendus et totam quis perspiciatis consequuntur ex rem vel blanditiis?</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="footer full-bg">
+<div class="container">
+  <div id="footer-links">
+       
+        <div class="row">
+            <div class="col-lg-6 col-sm-6 wow zoomIn text-center">
+                <ul class="top-ul">
+                  <li><a href="#">Address 1</a></li>
+                  <li><a href="#">Address 1</a></li>
+                  <li><a href="#">Address 1</a></li>
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">gmail</a></li>
+                </ul>
+             </div>
+             <div class="col-lg-6 col-sm-6 wow zoomIn text-center">
+                 <ul class="top-ul">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">inq</a></li>
+                  <li><a href="#">faq</a></li>
+                  <li><a href="#">blog</a></li>
+                  <li class="subscribe">Subscribe to
+                    <ul>
+                      <li><a href="#"><img src="images/social/facebook.png" alt=""></a></li>
+                      <li><a href="#"><img src="images/social/google-plus.png" alt=""></a></li>
+                      <li><a href="#"><img src="images/social/youtube.png" alt=""></a></li>
+                      <li><a href="#"><img src="images/social/instagram.png" alt=""></a></li>
+                    </ul>
+                  </li>
+                </ul>
+             </div>
+             <div class="subscribe col-lg-6 offset-lg-6 text-center">
+               
+             </div>
+        </div>
+  </div>
+</div>
+</div>
+
+
+
+<script>
+    new WOW().init()
+    $(".menu-toggle").click(function(){
+      //  $(".menu-toggle").toggleClass("change");
+       openNav();
+    })
+    function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+    }
+    function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+    }
+</script>
+</body>
+</html>

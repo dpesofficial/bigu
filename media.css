@@ -24,7 +24,7 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
     .burn-block {
         padding: 136px 40px;
-        background-size: 125% 100%;
+        background-size: 218% 100%;
         background-position: center;
     }
     .burn-paper {
@@ -32,11 +32,9 @@ No media query since this is the default in Bootstrap because it is "mobile firs
     }
     .send-lab a {
         width: 100%;
-        overflow: scroll;
     }
-    .send-lab img{
-        max-width: unset;
-        height: 100vh;
+    .send-lab img {
+        max-width: 100%;
     }
     #be-part h2 {
         font-size: 50px;
