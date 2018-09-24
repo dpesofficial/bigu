@@ -255,3 +255,31 @@ ul.top-ul>li>a {
 .logo img {
     max-width: 220px;
 }
+
+/*itenart*/
+.map img,
+.map{
+    width: 100%;
+}
+.itenary-modal .modal-header {
+    padding: 0;
+    border: none;
+    padding-right: 15px;
+    padding-top: 6px;
+}
+.itenary-modal .modal-body {
+    padding: 0 22px;
+}
+ul.itenart-detail {
+    list-style: none;
+}
+
+ul.itenart-detail li {
+    padding-bottom: 5px;
+    font-size: 22px;
+}
+ul.itenart-detail .fas,ul.itenart-detail .far {
+    color: #0d3c01;
+    font-size: 40px;
+    padding-right: 5px;
+}
